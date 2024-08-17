@@ -1,1 +1,1 @@
-# Projekt-programiranje1
+# Turingov stroj z več trakovi
