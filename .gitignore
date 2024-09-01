@@ -1,0 +1,8 @@
+*.exe
+*.opam
+
+/test/
+/bin/
+/lib/
+/.vscode/
+/.github/
