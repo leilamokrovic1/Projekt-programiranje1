@@ -1,6 +1,5 @@
 *.exe
 *.opam
-
 /test/
 /bin/
 /lib/
