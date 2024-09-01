@@ -1,0 +1,11 @@
+lib: [
+  "_build/install/default/lib/projektna/META"
+  "_build/install/default/lib/projektna/dune-package"
+  "_build/install/default/lib/projektna/opam"
+]
+bin: [
+  "_build/install/default/bin/projektna"
+]
+doc: [
+  "_build/install/default/doc/projektna/LICENSE"
+]

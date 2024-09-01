@@ -1,0 +1,4 @@
+(lang dune 3.11)
+(name projektna)
+(sections (lib .) (bin ../../bin) (doc ../../doc/projektna))
+(files (lib (META dune-package opam)) (bin (projektna)) (doc (LICENSE)))
