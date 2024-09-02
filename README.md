@@ -37,6 +37,9 @@ $\varepsilon$ pa označuje prazni niz.
 
 Za nemoteno delovanje projekta sta potrebna OCaml in Dune. Za uporabo ter vnos oklepajskega niza se poslužujemo tekstovnega vmesnika, ki ga zaženemo z ukazom ```dune build```. Ta postopek bo ustvaril program ```tekstovniVmesnik.exe```.
 
+Program bo izpisal sledeče:
+`1) Preveri oklepajski niz         
+2) Nastavi na začetno stanje`
 ### Tekstovni vmesnik
 
 ## Implementacija
