@@ -41,6 +41,7 @@ Program bo izpisal sledeče:
 
 ```1) Preveri oklepajski niz         
 2) Nastavi na začetno stanje```
+
 ### Tekstovni vmesnik
 
 ## Implementacija
