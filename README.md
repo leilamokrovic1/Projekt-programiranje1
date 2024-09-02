@@ -4,11 +4,12 @@ Projekt vsebuje implementacijo skladovnih avtomatov, enega izmed zelo uporabnih 
 Skladovni avtomat začne v enem izmed možnih stanj. Glede na trenutno stanje, trenutni simbol in vrhnji element na skladu, preide v novo stanje, hkrati pa lahko spremeni vsebino sklada. Če po obdelavi celotnega niza avtomat konča v enem od sprejemnih stanj in sklad izpolnjuje določene pogoje, je niz sprejet, sicer pa ni.
 
 Ta projektna naloga predstavlja implementacijo skladovnih avtomatov za karakterizacijo oklepajskih nizov. Avtomat preverja ali je vneseni oklepajski niz veljaven ali ne. 
-Oklepajski niz je veljaven, če:
+Oklepajski niz **je** veljaven, če:
 - so oklepaji pravilno gnezdeni, npr.:
-  ``` {[(){}]}()[] ```
-  ali
-  ```() ```.
+  ``` {[(){}]}()[] ```,
+  ```()```.
+Oklepajski niz **ni** veljaven:
+- niz vsebuje ne-oklepjski znak (npr.: črko, številko, znak, ki ni '(', ')', '{', '}', '[',']') 
 
 ## Matematična definicija
 
