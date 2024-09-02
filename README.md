@@ -39,7 +39,9 @@ Za nemoteno delovanje projekta sta potrebna OCaml in Dune. Za uporabo ter vnos o
 
 Program bo izpisal sledeče:
 
-```1) Preveri oklepajski niz         
+```
+
+1) Preveri oklepajski niz         
 2) Nastavi na začetno stanje```
 
 ### Tekstovni vmesnik
