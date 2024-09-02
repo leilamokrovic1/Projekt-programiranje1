@@ -1,7 +1,7 @@
 # Skladovni avtomati
 Projekt vsebuje implementacijo skladovnih avtomatov, enega izmed zelo uporabnih računskih modelov, ter njihovo uporabo za preverjanje (oklepajskih) nizov. 
 
-Skladovni avtomat začne v enem izmed možnih stanj. Glede na trenutno stanje, trenutni simbol in vrhnji element na skladu, preide v novo stanje, hkrati pa lahko spremeni vsebino sklada. Če po obdelavi celotnega niza avtomat konča v enem od sprejemnih stanj in sklad izpolnjuje določene pogoje, je niz sprejet, sicer pa ni.
+Skladovni avtomat začne v enem izmed možnih stanj. Glede na trenutno stanje, trenutni simbol in vrhnji element na skladu, preide v novo stanje, hkrati pa lahko vrhnji znak sklada zamenja z določeno besedo. Če po obdelavi celotnega niza avtomat konča v enem od sprejemnih stanj ali je sklad prazen, je niz sprejet, sicer pa ni.
 
 ##  Uporaba skladovnih avtomatov za karakterizacijo oklepajskih nizov
 
