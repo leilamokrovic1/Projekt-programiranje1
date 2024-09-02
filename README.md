@@ -3,7 +3,7 @@ Projekt vsebuje implementacijo skladovnih avtomatov, enega izmed zelo uporabnih 
 
 Skladovni avtomat začne v enem izmed možnih stanj. Glede na trenutno stanje, trenutni simbol in vrhnji element na skladu, preide v novo stanje, hkrati pa lahko spremeni vsebino sklada. Če po obdelavi celotnega niza avtomat konča v enem od sprejemnih stanj in sklad izpolnjuje določene pogoje, je niz sprejet, sicer pa ni.
 
-##  Uporaba skladovnih avtomatov za karakterizacijo oklepjskih nizov
+##  Uporaba skladovnih avtomatov za karakterizacijo oklepajskih nizov
 
 Ta projektna naloga predstavlja implementacijo skladovnih avtomatov za karakterizacijo oklepajskih nizov. Avtomat preverja ali je vneseni oklepajski niz veljaven ali ne. 
 
@@ -47,7 +47,7 @@ Program bo izpisal sledeče:
 Za preverjanje veljavnosti oklepajskih nizov izberemo 1, za ponovno uporabo 2.
 
 ## Implementacija
-Zaradi preglednosti je avtomat zapisan v nekaj datotekah v mapi ``` src```. 
+Zaradi preglednosti je avtomat zapisan v nekaj datotekah v mapi ```src```. 
 ### Struktura datotek
 Datoteke tega projekta so:
 -  avtomat.ml, ki definira skladovni avtomat
@@ -59,4 +59,5 @@ Datoteke tega projekta so:
 
 ## Primerjava skladovnih avtomatov z običajnimi končnimi avtomati
 Kot že samo ime nakazuje, je ključna razlika med skladovnimi avtomati in običajnimi končnimi avtomati prisotnost sklada. Sklad pri skladovnih avtomatih omogoča shranjevanje in dostop do že prebranih znakov, kar je pomembno za bolj kompleksno obdelavo vhodnih nizov.
+
 Z uporabo sklada lahko avtomat ohranja informacijo o prejšnjih stanjih, kar mu omogoča reševanje problemov, ki jih običajni končni avtomati ne morejo. Na primer, skladovni avtomati so sposobni analizirati strukturo gnezdenih elementov, medtem ko to za običajne končne avtomate predstavlja prevelik izziv.
