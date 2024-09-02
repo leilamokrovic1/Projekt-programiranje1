@@ -8,8 +8,9 @@ Oklepajski niz **je** veljaven, če:
 - so oklepaji pravilno gnezdeni, npr.:
   ``` {[(){}]}()[] ```,
   ```()```.
+
 Oklepajski niz **ni** veljaven:
-- niz vsebuje ne-oklepjski znak (npr.: črko, številko, znak, ki ni '(', ')', '{', '}', '[',']') 
+- niz vsebuje ne-oklepjski znak (npr.: črko, številko, znak, ki ni "(", ")", "{", "}", "[","]") 
 
 ## Matematična definicija
 
